@@ -47,20 +47,19 @@ make directory like `$GOPATH/src/github.com/skycoin/skycoin`
 ```
 
 
-You can clone the repo directly with `git clone https://github.com/SolarBankers/Solar-Bankers-Coin`,
-but it must be cloned to this path: `$GOPATH/src/github.com/skycoin/skycoin`.
+You can clone the repo directly with `git clone https://github.com/SolarBankers/Solar-Bankers-Coin`. The repo can be cloned to any path.
 
 ### Run Solar-Bankers-Coin from the command line
 
 ```sh
-cd $GOPATH/src/github.com/skycoin/skycoin
+cd $GOPATH/src/github.com/skycoin/skycoin/(solarbankers repo path)
 make run
 ```
 
 ### Show Solar-Bankers-Coin node options
 
 ```sh
-cd $GOPATH/src/github.com/skycoin/skycoin
+cd $GOPATH/src/github.com/skycoin/skycoin/(solarbankers repo path)
 make run-help
 ```
 
